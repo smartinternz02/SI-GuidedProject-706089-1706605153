@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_002,Chrome 121.0.0.0,Validating SearchItem and AddtoCart,,10-02-2024 02:46:09,10-02-2024 02:47:38,1m - 28.899s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_SearchItem,Chrome 121.0.0.0,,,10-02-2024 02:46:10,10-02-2024 02:46:41,31.589s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:10,10-02-2024 02:46:18,8.702s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:46:19,10-02-2024 02:46:21,2.645s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 02:46:21,10-02-2024 02:46:26,4.743s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/categoryElement""), ""Electronics"", false)",Chrome 121.0.0.0,,,10-02-2024 02:46:26,10-02-2024 02:46:30,3.804s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Asus vivobook"")",Chrome 121.0.0.0,,,10-02-2024 02:46:30,10-02-2024 02:46:32,1.766s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 02:46:32,10-02-2024 02:46:41,9.328s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:46:41,10-02-2024 02:46:41,0.278s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:41,10-02-2024 02:46:41,0.010s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_AddtoCart,Chrome 121.0.0.0,Adding product to cart,,10-02-2024 02:46:41,10-02-2024 02:47:38,56.703s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:41,10-02-2024 02:46:44,2.582s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:46:44,10-02-2024 02:46:46,2.488s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 02:46:46,10-02-2024 02:46:50,3.822s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 02:46:50,10-02-2024 02:46:55,4.733s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""frdscallsmereddy@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 02:46:55,10-02-2024 02:46:56,1.427s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,10-02-2024 02:46:56,10-02-2024 02:46:58,1.840s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""c/SSayQdT/EtSq2U0Aqd+Q=="")",Chrome 121.0.0.0,,,10-02-2024 02:46:58,10-02-2024 02:46:59,0.758s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,10-02-2024 02:46:59,10-02-2024 02:46:59,0.452s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,10-02-2024 02:46:59,10-02-2024 02:47:09,10.032s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Asus vivobook"")",Chrome 121.0.0.0,,,10-02-2024 02:47:09,10-02-2024 02:47:11,1.373s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 02:47:11,10-02-2024 02:47:24,12.926s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com  Asus vivobook/span_Touchscreen 15.6 Vivobook Business Lap_85f7b8""))",Chrome 121.0.0.0,,,10-02-2024 02:47:24,10-02-2024 02:47:28,4.621s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com asus Touchscreen 15.6 Vivob_1ff1f6/input_Added to Cart_submit.addToCart""))",Chrome 121.0.0.0,,,10-02-2024 02:47:28,10-02-2024 02:47:35,6.863s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com Shopping Cart/div_Added to Cart""))",Chrome 121.0.0.0,,,10-02-2024 02:47:35,10-02-2024 02:47:37,2.071s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:47:37,10-02-2024 02:47:38,0.512s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:47:38,10-02-2024 02:47:38,0.009s,PASSED

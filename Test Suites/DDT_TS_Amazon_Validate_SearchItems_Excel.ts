@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDT_TS_Amazon_Validate_SearchItems_Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a0a8d030-187b-4d51-a19b-0b5acb480bda</testSuiteGuid>
+   <testCaseLink>
+      <guid>be9a993d-e777-4ffd-9905-edaa608c00c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Amazon/DDT_Amazon_Validate_Category</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>628282f3-f37d-4123-aa98-b8cbce042f78</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon_SearchItems_Excel/Amazon_Validate_Category_Excel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>628282f3-f37d-4123-aa98-b8cbce042f78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>elementCategory</value>
+         <variableId>4ceb4bd3-1d38-4e6d-a309-ae2dcea7ef71</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>628282f3-f37d-4123-aa98-b8cbce042f78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Item</value>
+         <variableId>2ab9df0d-e654-4fbd-849b-9fb8150d8ebd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

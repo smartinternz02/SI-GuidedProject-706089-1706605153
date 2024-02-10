@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_TS_Amazon_Validate_SearchItems_Excel,Chrome 121.0.0.0,,,10-02-2024 20:05:30,10-02-2024 20:06:58,1m - 27.842s,FAILED
+,,,,,,,
+Test Cases/Amazon/DDT_Amazon_Validate_Category,Chrome 121.0.0.0,,,10-02-2024 20:06:24,10-02-2024 20:06:37,13.306s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 20:06:24,10-02-2024 20:06:28,3.711s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:06:28,10-02-2024 20:06:29,1.598s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:06:29,10-02-2024 20:06:32,2.863s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DDT_Amazon_Validate_Category_OR/Page_Amazon.com. Spend less. Smile more/elementCategory""), elementCategory, true)",Chrome 121.0.0.0,,,10-02-2024 20:06:32,10-02-2024 20:06:37,4.877s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 20:06:37,10-02-2024 20:06:37,0.234s,PASSED
+,,,,,,,
+Test Cases/Amazon/DDT_Amazon_Validate_Category,Chrome 121.0.0.0,,,10-02-2024 20:06:37,10-02-2024 20:06:58,20.568s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 20:06:37,10-02-2024 20:06:41,3.412s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:06:41,10-02-2024 20:06:42,1.639s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:06:42,10-02-2024 20:06:47,4.442s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/DDT_Amazon_Validate_Category_OR/Page_Amazon.com. Spend less. Smile more/elementCategory""), elementCategory, true)",Chrome 121.0.0.0,,,10-02-2024 20:06:47,10-02-2024 20:06:50,3.595s,PASSED
+"setText(findTestObject(""Object Repository/DDT_Amazon_Validate_Category_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,10-02-2024 20:06:50,10-02-2024 20:06:52,1.744s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Validate_Category_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 20:06:52,10-02-2024 20:06:58,5.500s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 20:06:58,10-02-2024 20:06:58,0.205s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 20:06:58,10-02-2024 20:06:58,0.005s,PASSED

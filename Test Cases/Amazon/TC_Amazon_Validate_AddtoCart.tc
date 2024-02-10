@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding product to cart</description>
+   <name>TC_Amazon_Validate_AddtoCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be0dcbbf-abcd-4c35-ab4c-e1636fa552fb</testCaseGuid>
+</TestCaseEntity>

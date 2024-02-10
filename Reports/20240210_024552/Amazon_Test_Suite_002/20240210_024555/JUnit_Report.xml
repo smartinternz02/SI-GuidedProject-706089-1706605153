@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Test_Suite_002" time="88.899" tests="2" failures="0" errors="0">
+   <testsuite name="Amazon_Test_Suite_002" tests="2" failures="0" errors="0" time="88.899" skipped="0" timestamp="10-02-2024T02:46:09" hostname="Raju - Raju-Gangidi" id="Test Suites/Amazon_Test_Suite_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\91939\\git\\SI-GuidedProject-706089-1706605153\\Reports\\20240210_024552\\Amazon_Test_Suite_002\\20240210_024555"/>
+         <property name="logFiles" value="C:\\Users\\91939\\git\\SI-GuidedProject-706089-1706605153\\Reports\\20240210_024552\\Amazon_Test_Suite_002\\20240210_024555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Raju - Raju-Gangidi"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.140.235"/>
+         <property name="sessionId" value="3bf5bb12df4759de726cbd028faf7656"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Validate_SearchItem" time="31.589" classname="Test Cases/Amazon/TC_Amazon_Validate_SearchItem" status="PASSED">
+         <system-out><![CDATA[10-02-2024T02:46:10 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Validate_SearchItem: Test Cases/Amazon/TC_Amazon_Validate_SearchItem
+
+10-02-2024T02:46:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T02:46:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T02:46:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T02:46:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T02:46:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:18 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T02:46:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-02-2024T02:46:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T02:46:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T02:46:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T02:46:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:26 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/categoryElement"), "Electronics", false): All options with label 'Electronics' are selected in object 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/categoryElement' 
+
+10-02-2024T02:46:30 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/categoryElement' 
+
+10-02-2024T02:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "Asus vivobook"): Text 'Asus vivobook' is set on object 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+10-02-2024T02:46:32 - [MESSAGE][PASSED] - Text 'Asus vivobook' is set on object 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+10-02-2024T02:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+10-02-2024T02:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+10-02-2024T02:46:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T02:46:41 - [MESSAGE][PASSED] - Browser is closed
+
+10-02-2024T02:46:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+10-02-2024T02:46:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T02:46:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Validate_AddtoCart" time="56.703" classname="Test Cases/Amazon/TC_Amazon_Validate_AddtoCart" status="PASSED">
+         <system-out><![CDATA[10-02-2024T02:46:41 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Validate_AddtoCart: Test Cases/Amazon/TC_Amazon_Validate_AddtoCart
+
+10-02-2024T02:46:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T02:46:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T02:46:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T02:46:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T02:46:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:44 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T02:46:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-02-2024T02:46:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T02:46:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T02:46:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T02:46:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:50 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+10-02-2024T02:46:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+10-02-2024T02:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+10-02-2024T02:46:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), "frdscallsmereddy@gmail.com"): Text 'frdscallsmereddy@gmail.com' is set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+10-02-2024T02:46:56 - [MESSAGE][PASSED] - Text 'frdscallsmereddy@gmail.com' is set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+10-02-2024T02:46:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+10-02-2024T02:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+10-02-2024T02:46:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Forgot your password_password"), "c/SSayQdT/EtSq2U0Aqd+Q=="): Text ****** has been set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+10-02-2024T02:46:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+10-02-2024T02:46:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+10-02-2024T02:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+10-02-2024T02:46:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=electronics-intl-ship", true): All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+10-02-2024T02:47:09 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+10-02-2024T02:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "Asus vivobook"): Text 'Asus vivobook' is set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+10-02-2024T02:47:11 - [MESSAGE][PASSED] - Text 'Asus vivobook' is set on object 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+10-02-2024T02:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+10-02-2024T02:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+10-02-2024T02:47:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com  Asus vivobook/span_Touchscreen 15.6 Vivobook Business Lap_85f7b8")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com  Asus vivobook/span_Touchscreen 15.6 Vivobook Business Lap_85f7b8' is clicked on
+
+10-02-2024T02:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com  Asus vivobook/span_Touchscreen 15.6 Vivobook Business Lap_85f7b8' is clicked on
+
+10-02-2024T02:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com asus Touchscreen 15.6 Vivob_1ff1f6/input_Added to Cart_submit.addToCart")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com asus Touchscreen 15.6 Vivob_1ff1f6/input_Added to Cart_submit.addToCart' is clicked on
+
+10-02-2024T02:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com asus Touchscreen 15.6 Vivob_1ff1f6/input_Added to Cart_submit.addToCart' is clicked on
+
+10-02-2024T02:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com Shopping Cart/div_Added to Cart")): Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com Shopping Cart/div_Added to Cart' is clicked on
+
+10-02-2024T02:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com Shopping Cart/div_Added to Cart' is clicked on
+
+10-02-2024T02:47:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T02:47:38 - [MESSAGE][PASSED] - Browser is closed
+
+10-02-2024T02:47:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+10-02-2024T02:47:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T02:47:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T02:46:09 - [TEST_SUITE][PASSED] - Amazon_Test_Suite_002: Test Cases/Amazon/TC_Amazon_Validate_AddtoCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

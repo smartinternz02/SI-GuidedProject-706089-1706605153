@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Validate_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8e44ad5-0a77-4ddd-b0c9-05e60966d324</testCaseGuid>
+</TestCaseEntity>

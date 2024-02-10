@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_001,Chrome 121.0.0.0,,,10-02-2024 02:41:07,10-02-2024 02:42:25,1m - 18.376s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_Login,Chrome 121.0.0.0,Validating Login,,10-02-2024 02:41:07,10-02-2024 02:41:35,28.290s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:41:07,10-02-2024 02:41:13,6.146s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:41:13,10-02-2024 02:41:15,1.839s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,10-02-2024 02:41:15,10-02-2024 02:41:19,3.716s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 02:41:19,10-02-2024 02:41:23,4.447s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""frdscallsmereddy@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 02:41:23,10-02-2024 02:41:25,1.362s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,10-02-2024 02:41:25,10-02-2024 02:41:26,1.693s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Validate_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""c/SSayQdT/EtSq2U0Aqd+Q=="")",Chrome 121.0.0.0,,,10-02-2024 02:41:26,10-02-2024 02:41:27,0.984s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,10-02-2024 02:41:27,10-02-2024 02:41:28,0.406s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,10-02-2024 02:41:28,10-02-2024 02:41:35,7.111s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:41:35,10-02-2024 02:41:35,0.318s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:41:35,10-02-2024 02:41:35,0.011s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_Logout,Chrome 121.0.0.0,,,10-02-2024 02:41:55,10-02-2024 02:42:25,29.514s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:41:55,10-02-2024 02:42:00,4.214s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:42:00,10-02-2024 02:42:01,1.201s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 02:42:01,10-02-2024 02:42:05,3.842s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 02:42:05,10-02-2024 02:42:09,4.196s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""frdscallsmereddy@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 02:42:09,10-02-2024 02:42:11,1.823s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,10-02-2024 02:42:11,10-02-2024 02:42:13,1.854s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""c/SSayQdT/EtSq2U0Aqd+Q=="")",Chrome 121.0.0.0,,,10-02-2024 02:42:13,10-02-2024 02:42:13,0.877s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,10-02-2024 02:42:13,10-02-2024 02:42:14,0.499s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,10-02-2024 02:42:14,10-02-2024 02:42:20,5.665s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/i_Sign Out_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,10-02-2024 02:42:20,10-02-2024 02:42:21,1.276s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/a_Sign Out""))",Chrome 121.0.0.0,,,10-02-2024 02:42:21,10-02-2024 02:42:25,3.768s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:42:25,10-02-2024 02:42:25,0.270s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:42:25,10-02-2024 02:42:25,0.000s,PASSED

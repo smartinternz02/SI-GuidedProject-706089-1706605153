@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_001,Chrome 121.0.0.0,,,10-02-2024 02:46:07,10-02-2024 02:47:18,1m - 11.598s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_Login,Chrome 121.0.0.0,Validating Login,,10-02-2024 02:46:38,10-02-2024 02:46:44,5.573s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:38,10-02-2024 02:46:42,3.288s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:46:42,10-02-2024 02:46:44,1.841s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,10-02-2024 02:46:44,10-02-2024 02:46:44,0.180s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:44,10-02-2024 02:46:44,0.231s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_Logout,Chrome 121.0.0.0,,,10-02-2024 02:46:44,10-02-2024 02:47:18,34.167s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:46:44,10-02-2024 02:46:47,2.868s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:46:47,10-02-2024 02:46:48,1.391s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,10-02-2024 02:46:48,10-02-2024 02:46:52,3.916s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 02:46:52,10-02-2024 02:46:55,3.161s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""frdscallsmereddy@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 02:46:55,10-02-2024 02:46:57,1.598s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,10-02-2024 02:46:57,10-02-2024 02:46:59,2.278s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""c/SSayQdT/EtSq2U0Aqd+Q=="")",Chrome 121.0.0.0,,,10-02-2024 02:46:59,10-02-2024 02:47:01,1.564s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,10-02-2024 02:47:01,10-02-2024 02:47:01,0.432s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,10-02-2024 02:47:01,10-02-2024 02:47:08,6.836s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/i_Sign Out_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,10-02-2024 02:47:08,10-02-2024 02:47:13,4.906s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_Logout_OR/Page_Amazon.com. Spend less. Smile more/a_Sign Out""))",Chrome 121.0.0.0,,,10-02-2024 02:47:13,10-02-2024 02:47:17,4.407s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:47:17,10-02-2024 02:47:18,0.604s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:47:18,10-02-2024 02:47:18,0.010s,PASSED

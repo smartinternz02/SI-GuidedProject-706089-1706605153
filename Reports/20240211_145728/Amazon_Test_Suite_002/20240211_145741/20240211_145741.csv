@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_002,Chrome 121.0.0.0,Validating SearchItem and AddtoCart,,11-02-2024 14:57:50,11-02-2024 14:58:35,45.150s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_SearchItem,Chrome 121.0.0.0,,,11-02-2024 14:57:50,11-02-2024 14:58:15,24.689s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,11-02-2024 14:57:50,11-02-2024 14:57:57,6.534s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:57:57,11-02-2024 14:57:59,1.481s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:57:59,11-02-2024 14:58:01,2.621s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/categoryElement""), ""Electronics"", false)",Chrome 121.0.0.0,,,11-02-2024 14:58:01,11-02-2024 14:58:03,1.390s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Asus vivobook"")",Chrome 121.0.0.0,,,11-02-2024 14:58:03,11-02-2024 14:58:05,1.924s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_SearchItem/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,11-02-2024 14:58:05,11-02-2024 14:58:15,10.111s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:58:15,11-02-2024 14:58:15,0.401s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,11-02-2024 14:58:15,11-02-2024 14:58:15,0.012s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Validate_AddtoCart,Chrome 121.0.0.0,Adding product to cart,,11-02-2024 14:58:15,11-02-2024 14:58:35,20.229s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,11-02-2024 14:58:15,11-02-2024 14:58:19,3.899s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:58:19,11-02-2024 14:58:20,1.289s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:58:20,11-02-2024 14:58:22,2.020s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_AddtoCart_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,11-02-2024 14:58:22,11-02-2024 14:58:35,12.587s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,11-02-2024 14:58:35,11-02-2024 14:58:35,0.273s,PASSED

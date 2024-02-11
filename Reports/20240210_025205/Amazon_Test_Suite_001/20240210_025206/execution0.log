@@ -2028,10 +2028,7 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2024-02-10T14:35:12.729411100Z</date>
   <millis>1707575712729</millis>
